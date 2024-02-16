@@ -1,0 +1,112 @@
+/* Write your CSS here */
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0px;
+}
+
+.bgContainer {
+  padding-top: 20px;
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  margin: auto;
+  height: 100vh;
+}
+.commentsheading {
+  font-family: 'Roboto';
+  font-size: 30px;
+  font-weight: bold;
+  color: #1e293b;
+}
+.sayPara {
+  font-family: 'Roboto';
+  color: #475569;
+}
+@media all and (min-width: 768px) {
+  .commentsheading {
+    font-size: 42px;
+  }
+}
+.formCard {
+  display: flex;
+  flex-direction: column;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 100%;
+}
+.countSpan {
+  padding: 10px;
+  background-color: #0284c7;
+  color: #ffffff;
+  border-radius: 5px;
+}
+.nameInput {
+  border-radius: 5px;
+
+  border-width: 1px;
+  border-color: #475569;
+  width: 100%;
+  height: 30px;
+  margin: 10px 0px 10px 0px;
+}
+.horizontalLine {
+  width: 100%;
+}
+.commnetText {
+  border-radius: 5px;
+
+  border-width: 1px;
+  border-color: #475569;
+  width: 100%;
+  margin: 10px 0px 10px 0px;
+}
+.ulConatiener {
+  list-style-type: none;
+  padding-left: 0px;
+}
+@media all and (min-width: 768px) {
+  .formCard {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .form {
+    width: 40%;
+  }
+  .image1 {
+    height: 100%;
+    width: 50%;
+    order: 2;
+    align-self: flex-end;
+  }
+}
+.inputAreas {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: flex-start;
+  flex-grow: 1;
+}
+.image1 {
+  height: 100%;
+}
+@media all and (min-width: 768px) {
+  .formCard {
+    flex-direction: row;
+  }
+}
+.btnStyle {
+  width: 150px;
+  height: 30px;
+  background-color: #0284c7;
+  font-family: 'Roboto';
+  color: #ffffff;
+  border: none;
+  outline: none;
+  border-radius: 7px;
+}

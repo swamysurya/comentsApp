@@ -1,0 +1,123 @@
+.amber {
+  background-color: #f59e0b;
+}
+
+.blue {
+  background-color: #0b69ff;
+}
+
+.orange {
+  background-color: #f97316;
+}
+
+.emerald {
+  background-color: #10b981;
+}
+
+.teal {
+  background-color: #14b8a6;
+}
+
+.red {
+  background-color: #b91c1c;
+}
+
+.light-blue {
+  background-color: #0ea5e9;
+}
+
+/* Write your CSS here */
+
+.listEle {
+  font-family: 'Roboto';
+  border-style: solid;
+  border-color: #0b69ff;
+  padding-bottom: 10px;
+  border-width: 0px 0px 1px 0px;
+  list-style-type: none;
+  border-bottom-color: #475569;
+}
+.parawidth {
+  width: 90%;
+}
+.nameDetails {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.comment {
+  margin-top: 0px;
+  padding-left: 10px;
+  color: #64748b;
+  font-size: 20px;
+}
+
+.nameStyel {
+  font-size: 20px;
+  color: #334155;
+
+  margin-top: 0px;
+  padding-right: 10px;
+  margin-bottom: 0px;
+}
+.time {
+  color: #94a3b8;
+}
+.nameSection {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  gap: 10px;
+}
+.nameDate {
+  display: flex;
+  flex-direction: row;
+  margin-top: 0px;
+  padding-left: 10px;
+  justify-content: flex-start;
+  align-items: center;
+}
+.likeImage {
+  margin-right: 10px;
+  margin-bottom: 0px;
+  width: 25px;
+  height: 25px;
+}
+.buttonsDiv {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.letterStyle {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  border-radius: 25px;
+  min-width: 50px;
+  min-height: 50px;
+  font-size: 16px;
+}
+.likeBtn {
+  text-align: left;
+  width: 100px;
+  background-color: transparent;
+  outline: none;
+  border: none;
+}
+.blueClass {
+  color: #0b69ff;
+}
+.LikeClass {
+  font-size: 20px;
+}
+.deleteBtn {
+  background-color: transparent;
+  outline: none;
+  border: none;
+}
+.deleteIcon {
+  width: 20px;
+  height: 20px;
+}
